@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Engagement&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Kenia&display=swap');
+
+.SpaceMainTitle{
+    background-color: rgba(16, 234, 234, 0);
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align:center;
+    max-height: 9%;
+    
+    font-family: "Carter One", system-ui;
+    /* 
+    letter-spacing: 3px;
+    color: yellowgreen;
+    font-weight: 900; */
+    font-size: 30px;
+   
+/*  font-family:"Dancing Script", cursive; */
+    font-weight: 300;
+    /* letter-spacing: 15px;*/
+    letter-spacing: 7px; 
+    text-transform: uppercase;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+}

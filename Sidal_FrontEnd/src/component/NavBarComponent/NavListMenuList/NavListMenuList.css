@@ -1,0 +1,39 @@
+:root{
+    --Secondary-font: "Dancing Script", cursive;
+    --Main-font :  "Federo", sans-serif;
+    --wieght-b:700;
+    --wieght-l:300;
+     /* Web-Defines */
+     --CPrim:var(--CPrim);
+     --CSec:var(--C-Sec);
+     --CSmBG:var(--C-L-gray);
+     --CBigBG:var(--C-BackGround);
+     --CTxt:var(--C-Text-Mid-Gray);
+     --CBrdr:var(--C-Border-Gray);
+}
+.NavListMenuList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 5px;
+    margin: 10% 0;
+    height: 80%;
+    width: 65%;
+    border-radius: 25px;
+    background-color:var(--CSmBG);
+    background-color: #f2f2f2;
+}
+.NavListMenuList *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: var(--CTxt);
+    font-weight: var(--wieght-b);
+   
+    
+    
+}

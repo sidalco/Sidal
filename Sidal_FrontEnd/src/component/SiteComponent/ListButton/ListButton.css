@@ -1,0 +1,41 @@
+:root{
+    --Secondary-font: "Dancing Script", cursive;
+    --Main-font :  "Federo", sans-serif;
+    --wieght-b:700;
+    --wieght-l:300;
+     /* Web-Defines */
+     --CPrim:var(--CPrim);
+     --CSec:var(--C-Sec);
+     --CSmBG:var(--C-L-gray);
+     --CBigBG:var(--C-BackGround);
+     --CTxt:var(--C-Text-Mid-Gray);
+     --CBrdr:var(--C-Border-Gray);
+}
+.ListButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    padding: 5px ;
+    /* border-radius: 10px; */
+    margin: 0;
+    background-color: rgba(231, 0, 73, 0);
+    width: fit-content;
+    height: fit-content;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    /* color: rgb(255, 0, 60); */
+}
+.ListButton *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+   
+    
+    
+}

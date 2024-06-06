@@ -1,0 +1,201 @@
+.ProductDescription{
+    background-color: rgba(0, 49, 49, 0);
+
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-radius: var(--Bl-Rds);
+}
+.ProductDescriptionLeftSide{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: space-between; */
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 28%;
+    background-color:rgba(234, 255, 131, 0);
+}
+.ProductDescriptionTitle{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(148, 3, 3, 0);
+    width: 100%;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    height: 15%;
+}
+.ProductDescriptionDesc{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: start;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+    width:80%;
+    height: 70%;
+    font-size: 14px;
+  
+    background-color: rgba(255, 0, 0, 0);
+    padding: 5px 15px;
+    border-radius: 15px;
+    letter-spacing: .25px;
+    font-weight: 100;
+    font-family: "Alegreya", serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 0.125px  solid rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.4),
+                -3px -3px 15px 1px rgb(255, 255, 255);
+
+}
+
+.ProductDescriptionRightSide{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+    align-items: flex-start;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 69%;
+    background-color:rgba(147, 255, 219, 0);
+}
+
+.ProductDescriptionImage{
+    width: 80%;
+    width: 96%;
+    height: 96%;
+    object-fit: cover;
+    border: 0.5px  solid rgba(0, 0, 0, 0.3);
+    border-top: 0;
+
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.4),
+                -3px -3px 15px 1px rgba(255, 255, 255, 0.619);
+                padding: 7px;
+
+}
+
+
+
+
+
+/*    
+.ProductDescription{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-radius: var(--Bl-Rds);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* height: 500%; */
+    /* height: 300px; *-/
+    margin: 1% 0;
+    margin: 0;
+    border: 0.5px solid rgba(192, 189, 189, 0.9);
+    background-color: #ff0040f2;
+    background-color: #ffffffb6;
+    min-height: 500px; */
+    /* border-radius: 0; *-/
+}
+/* .ProductDescription *{
+    /* height: 100%; *-/
+    height: 100%;
+    aspect-ratio: 1/1;
+    background-color: #2bff00;
+} *-/
+.ProductDescriptionLeftSide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    
+
+    
+    background-color: #2bff00;
+    width: 50%;
+    height: 100%;
+    font-size: 12px;
+}
+.ProductDescriptionTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    
+
+    
+    background-color: #0d00ff;
+    width: 100%;
+    height: 10%;
+}
+.ProductDescriptionDesc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    
+
+    background-color: #6d646c;
+    width: 100%;
+    height:20%;
+}
+.ProductDescriptionRightSide{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+   
+    aspect-ratio: 1/1;
+    
+    background-color: #dd00ffc3; */
+    /* width: 50%; */
+     /* min-height: 100%; *-/
+     height: 100%;
+     aspect-ratio: 1/1;
+     background-color: #2bff00;
+ 
+} 
+#ProductDescriptionImage{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    object-fit: contain;
+    /* height: 10%;
+    width: 15%;
+     *-/
+    background-color: #26091000; 
+   
+}
+*/

@@ -1,0 +1,47 @@
+:root{
+    --Secondary-font: "Dancing Script", cursive;
+    --Main-font :  "Federo", sans-serif;
+    --wieght-b:700;
+    --wieght-l:300;
+     /* Web-Defines */
+     --CPrim:var(--CPrime);
+     --CSec:var(--C-Sec);
+     --CSmBG:var(--C-L-gray);
+     --CBigBG:var(--C-BackGround);
+     --CTxt:var(--C-Text-Mid-Gray);
+     --CBrdr:var(--C-Border-Gray);
+}
+.NavListMenuListLanguage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    /* height: 50px; */
+    width: 6%;
+    aspect-ratio: 1/1;
+    background-color:var(--CPrim);
+    background-color:#ff0040;
+    border: 1px var(--CPrim) solid;
+    border: 1px #ff0040 solid;
+    color: #fff;
+    border-radius: 50%;
+
+
+    margin: 0 5px;
+    box-shadow: 1px 1px 25px 3px rgba(173, 0, 0, 0.3),
+                -5px -5px 20px 1px rgba(255, 255, 255, 0.9);
+}
+.NavListMenuListLanguage *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 102);
+}
