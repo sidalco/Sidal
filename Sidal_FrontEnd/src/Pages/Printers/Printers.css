@@ -1,0 +1,120 @@
+
+
+#ProductDescription{
+    background-color: rgba(0, 49, 49, 0);
+
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-radius: var(--Bl-Rds);
+}
+#ProductDescriptionLeftSide{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: space-between; */
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 28%;
+    background-color:rgba(205, 239, 37, 0);
+}
+.ProDescripLeftIn{
+    height: calc( 100% - 20px);
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    background-color:rgba(205, 239, 37, 0);
+}
+#ProductDescriptionTitle{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(61, 237, 149, 0);
+    width: 100%;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    min-height: 20%;
+}
+#ProductDescriptionDesc{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: start;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+    width:80%;
+    min-height: 70%;
+    font-size: 16px;
+    
+  
+    background-color: rgba(255, 0, 0, 0);
+    padding: 5px 15px;
+    border-radius: 15px;
+    letter-spacing: .25px;
+    font-weight: 100;
+    font-family: "Alegreya", serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 0.125px  solid rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.4),
+                -3px -3px 15px 1px rgb(255, 255, 255);
+
+}
+
+
+
+
+#ProductDescriptionRightSide{
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    overflow-x: scroll;
+    height: 100%;
+    padding: 3px;
+    margin: 0;
+    width: 69%;
+    background-color:rgba(246, 31, 228, 0);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5),
+                -5px -5px 15px 5px white;
+}
+
+#ProductDescriptionImage{
+    margin: 0 10px;
+    width: 90%;
+    height: 92%;
+    object-fit: cover;
+    border: 0.5px  solid rgba(0, 0, 0, 0.3);
+    border-top: 0;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.1),
+                -3px -3px 15px 1px rgba(255, 255, 255, 0.619);
+}
+
+
+
+

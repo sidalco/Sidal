@@ -1,0 +1,162 @@
+
+.ProductsContainer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    border-radius: var(--Bl-Rds);
+
+    width: 100%;
+    height: 100%;
+    background-color: #ff004000;
+    overflow-x: scroll;
+
+    
+    border:1px solid rgba(255, 0, 0, 0);
+    
+    /* float:left; */
+    /* justify-content: space-evenly; */
+    /* position:relative; */
+}
+.ProductsCard{
+    margin: 0 25px;
+    min-width: 800px;
+    height: 400px;
+    background-color: rgba(0, 255, 255, 0);
+    border-radius: 15px;
+
+    box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.3),
+                -5px -5px 20px 1px rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    /* flex-direction: column; */
+    padding: 0;
+    border-radius: var(--Bl-Rds);
+}
+.ProductsUpSide{
+    width: 97%;
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(77, 144, 189, 0)
+   
+}
+.ProductType{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-align: left;
+    justify-content: start;
+    align-items: flex-start;
+    display: flex;
+    background-color: #00ff9900;
+    width: 13%;
+    color: #626262;
+    /* text-decoration: underline; */
+    border-bottom: 1px solid  #626262;
+}
+.ProductPDF{
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: right;
+    padding: 0 5px;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    /* text-decoration: underline; */
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    transition: .3s ease-in-out;
+    width: 28%;
+    color: #ff0040f7;
+    height: 90%;
+    /* border: 1px black solid; */
+}
+.ProductPDF *{
+    font-size: 25px;
+   margin:0 0 0 5px;
+}
+.ProductsName{
+    height: 100%;
+    max-width: 56%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 5px;
+    background-color: #ff004000;
+    color: #626262;
+    color: #000000;
+    
+    font-size: 25px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    font-weight: bolder;
+    font-family: "Arapey", serif;
+}
+/* ###################################################### */
+.ProductsBottomSide{
+    width: 97%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(226, 226, 226)
+
+}
+.ProductsBottomPicSide{
+    background-color: #ff0040;
+    height: 100%;
+    width: 59%;
+   
+}
+.ProductsBottomPicSide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ProductsBottomExplainSide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-y: auto;
+    overflow-x:unset;
+    background-color: #d971ff00;
+    height: 100%;
+    width: 39%;
+    
+}
+.ProductsBottomExplainSide span{
+    display: flex;
+    text-align: left;
+    margin: 0;
+    background-color: #ffffff4c;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.386);
+    color: grey;
+    
+    font-size: 15px;
+    font-weight: 300;
+   
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 90% ;
+    height: 90%;
+    padding: 5px 10px;
+}

@@ -1,0 +1,208 @@
+:root{
+    --Secondary-font: "Dancing Script", cursive;
+    --Main-font :  "Federo", sans-serif;
+    --wieght-b:700;
+    --wieght-l:300;
+
+    --Secondary-font: "Dancing Script", cursive;
+    --Main-font :  "Federo", sans-serif;
+    
+    --wieght-b:700;
+    --wieght-l:300;
+    
+    --C-Prim:var(#ff0040);
+    --C-Sec:var(#030001);
+    --C-L-gray:var(#e5e9eb);
+    --C-Text-Mid-Gray:var(#7f7f7f);
+    --C-Border-Gray:var(#c8c8c8);
+    --C-BackGround:var(#f8f8f8);
+     /* Web-Defines */
+     --CPrim:var(--CPrim);
+     --CSec:var(--C-Sec);
+     --CSmBG:var(--C-L-gray);
+     --CBigBG:var(--C-BackGround);
+     --CTxt:var(--C-Text-Mid-Gray);
+     --CBrdr:var(--C-Border-Gray);
+     
+     /* Web-Defines */
+     --CPrim:var(--CPrim);
+     --CSec:var(--C-Sec);
+     --CSmBG:var(--C-L-gray);
+     --CBigBG:var(--C-BackGround);
+     --CTxt:var(--C-Text-Mid-Gray);
+     --CBrdr:var(--C-Border-Gray);
+} 
+
+
+
+/* 
+
+::-webkit-scrollbar {
+    width: 10px;
+    
+    height: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #061bfc00;
+    width: 5px;
+}
+  
+
+  ::-webkit-scrollbar-thumb {
+    background: #acacad;
+    border-radius: 15px;
+    height: 5px;
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ff0066;
+    background: #858585;
+  } */
+
+
+
+
+
+.Catalogue{
+     display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-radius: var(--Bl-Rds);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 1% 0;
+    border: 0.5px solid rgba(192, 189, 189, 0);
+}
+.CatalogueContainer{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-radius: var(--Bl-Rds);
+
+    width: 100%;
+    height: 100%;
+    background-color: #ff004000;
+    overflow-x: scroll;
+
+    
+    border:1px solid rgba(255, 0, 0, 0);
+    
+    float:left;
+
+    position:relative;
+}
+.CatalogueCard{
+    margin: 0 25px;
+    min-width: 300px;
+    height: 350px;
+    background-color: rgba(0, 255, 255, 0);
+    border-radius: 15px;
+
+    box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.3),
+                -5px -5px 20px 1px rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0;
+    border-radius: var(--Bl-Rds);
+
+}
+.CatalogueName{
+    background-color: rgba(255, 0, 0, 0);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    height: 10%;
+    font-size: 20px;
+    font-weight: 700;
+}
+.CatalogueImage{
+    background-color: rgba(0, 136, 255, 0);
+    max-width: 100%;
+    
+    max-height: 70%;
+    min-width: 100%;
+    
+    min-height: 70%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+
+}
+.CatalogueButtons{
+background-color: rgba(0, 128, 255, 0);
+width: 100%;
+height: 15%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+text-align: center;
+margin: 0;
+
+
+}
+.CatalogueDownload{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+    outline: none;
+    text-decoration: none;
+    padding: 0;
+	font: inherit;
+	cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 35px;
+    border-radius: 15px;
+    background-color: #ff0040;
+	color: white;
+    width: 40%;
+    font-weight: 700;
+    letter-spacing: 1px;
+	
+}
+/* .CatalogueDownload *{
+    margin: 0;
+    color: #f8f8f8;
+    padding: 0;
+    max-width: 20%;
+    background-color: rgba(153, 205, 50, 0);
+    font-size: 20px;
+} */
+.CatalogueLanguage{
+background-color: rgba(0, 255, 47, 0);
+color: red;
+width: 30%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+height: 25px;
+letter-spacing: 2.5px;
+
+}
+
+

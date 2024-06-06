@@ -1,0 +1,100 @@
+:root{
+    --Secondary-font: "Dancing Script", cursive;
+    --Main-font :  "Federo", sans-serif;
+    --wieght-b:700;
+    --wieght-l:300;
+
+    --Secondary-font: "Dancing Script", cursive;
+    --Main-font :  "Federo", sans-serif;
+    
+    --wieght-b:700;
+    --wieght-l:300;
+    
+    --C-Prim:var(#ff0040);
+    --C-Sec:var(#030001);
+    --C-L-gray:var(#f2f2f2);
+    --C-Text-Mid-Gray:var(#7f7f7f);
+    --C-Border-Gray:var(#c8c8c8);
+    --C-BackGround:var(#f8f8f8);
+     /* Web-Defines */
+     --CPrim:var(--CPrim);
+     --CSec:var(--C-Sec);
+     --CSmBG:var(--C-L-gray);
+     --CBigBG:var(--C-BackGround);
+     --CTxt:var(--C-Text-Mid-Gray);
+     --CBrdr:var(--C-Border-Gray);
+     
+     /* Web-Defines */
+     --CPrim:var(--CPrim);
+     --CSec:var(--C-Sec);
+     --CSmBG:var(--C-L-gray);
+     --CBigBG:var(--C-BackGround);
+     --CTxt:var(--C-Text-Mid-Gray);
+     --CBrdr:var(--C-Border-Gray);
+} 
+.SiteMainView{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 90%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: var(--Bl-Rds);
+    background: rgba(6, 228, 102, 0);
+
+
+}
+.SiteMainViewContainer{
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0);
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 15px;
+    align-items: start;
+    text-align: left;
+    flex-direction: column;
+    border-radius: var(--Bl-Rds);
+    --C-L-gray:var(#e5e9eb);
+    background: linear-gradient(55deg,
+           var(--C-L-gray) 0%,
+           var(--C-L-gray) 32%,
+            rgba(167, 131, 131, 0) 60%);
+    background: linear-gradient(55deg,
+            #e5e9eb 0%,
+            #e5e9eb 32%,
+            rgba(167, 131, 131, 0) 60%);
+}
+.SidalH1{
+    height: 15%;
+    width: 50%;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: var(--CTxt);
+    color: #030001;
+}
+.SidalP{
+    height: 78%;
+    width: 45%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: left;
+    padding: 5px ;
+    margin: 0;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: var(--CBrdr);
+    color: #7f7f7f;
+}
+

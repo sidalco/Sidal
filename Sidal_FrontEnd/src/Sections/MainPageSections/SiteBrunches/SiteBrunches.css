@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --Secondary-font: "Dancing Script", cursive;
+    --Main-font :  "Federo", sans-serif;
+    --wieght-b:700;
+    --wieght-l:300;
+
+    --Secondary-font: "Dancing Script", cursive;
+    --Main-font :  "Federo", sans-serif;
+    
+    --wieght-b:700;
+    --wieght-l:300;
+    
+    --C-Prim:var(#ff0040);
+    --C-Sec:var(#030001);
+    --C-L-gray:var(#e5e9eb);
+    --C-Text-Mid-Gray:var(#7f7f7f);
+    --C-Border-Gray:var(#c8c8c8);
+    --C-BackGround:var(#f8f8f8);
+     /* Web-Defines */
+     --CPrim:var(--CPrim);
+     --CSec:var(--C-Sec);
+     --CSmBG:var(--C-L-gray);
+     --CBigBG:var(--C-BackGround);
+     --CTxt:var(--C-Text-Mid-Gray);
+     --CBrdr:var(--C-Border-Gray);
+     
+     /* Web-Defines */
+     --CPrim:var(--CPrim);
+     --CSec:var(--C-Sec);
+     --CSmBG:var(--C-L-gray);
+     --CBigBG:var(--C-BackGround);
+     --CTxt:var(--C-Text-Mid-Gray);
+     --CBrdr:var(--C-Border-Gray);
+} 
+.SiteBrunches{
+     display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-radius: var(--Bl-Rds);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+    margin: 1% 0;
+    border: 0.5px solid rgba(192, 189, 189, 0);
+}
+
+
+.BrunchesContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    border-radius: var(--Bl-Rds);
+
+    width: 100%;
+    
+    background-color: #ff004000;
+    
+
+    
+    border:1px solid rgba(255, 0, 0, 0);
+    
+   
+
+    position:relative;
+}
+.BrunchesCard,#BrunchesCard{
+   margin: 25px 0;
+    width: 90%;
+    height: 350px;
+    background-color: rgba(0, 255, 255, 0);
+    border-radius: 15px;
+
+    box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.3),
+                -5px -5px 20px 1px rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    /* flex-direction: column; */
+    padding: 0;
+    border-radius: var(--Bl-Rds);
+
+}
+
+.BrunchesName{
+    height: 13%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ff004000;
+    color: #ff0040;
+    color: #626262;
+    font-size: 30px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    font-weight: bolder;
+    /* font-family: "Dancing Script", cursive;
+    font-family: "Federo", sans-serif; */
+    font-family: "Alegreya", serif;
+    font-family: "Oswald", sans-serif;
+    /* font-family: "Dancing Script", cursive; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Alegreya", serif;
+    font-family: "Oswald", sans-serif;
+    font-family: "Arapey", serif;
+}
+.branchesbutt{
+    width: 100%;
+    height: 86%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+.BrunchesMapSide{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #91ff0000;
+    width: 50%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+
+    
+}
+#BrunchesMapIFrame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ff004000;
+    width: 96%;
+    height: 96%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    border-radius: 25px;
+    /* -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%); */
+}
+#BrunchesMapIFrame:focus{
+   outline: none; 
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+.BrunchesInfoSide{
+    
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: space-around; */
+    align-items: start;
+    text-align: center;
+    flex-direction: column;
+    background-color: #009dff00;
+    width: 50%;
+    height: 96%;
+    /* border-left: 3px solid black; */
+    
+    
+}
+.BrunchesSingleInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    height: 18%;
+    width: 94%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
+}
+.BrunchesIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    background-color: #ff004000;
+    width: 27%;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+    height: 100%;
+    
+}
+.BrunchesInfoNameTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: #ff004000;
+    width: 80%;
+    font-size: 18px;
+    font-weight: 100;
+    height: 100%;
+    letter-spacing: 3px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+.SiteBrunchesName{
+    background-color: rgba(255, 0, 0, 0);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    height: 10%;
+    font-size: 20px;
+    font-weight: 700;
+}
+.SiteBrunchesImage{
+    background-color: rgba(0, 136, 255, 0);
+    width: 100%;
+    max-height: 80%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+
+}
+.SiteBrunchesButtons{
+background-color: rgba(0, 128, 255, 0);
+width: 100%;
+height: 15%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+text-align: center;
+margin: 0;
+
+
+}
+.SiteBrunchesDownload{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+    outline: none;
+    text-decoration: none;
+    padding: 0;
+	font: inherit;
+	cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 35px;
+    border-radius: 15px;
+    background-color: #ff0040;
+	color: white;
+    width: 40%;
+    font-weight: 700;
+    letter-spacing: 1px;
+	
+}
+/* .SiteBrunchesDownload *{
+    margin: 0;
+    color: #f8f8f8;
+    padding: 0;
+    max-width: 20%;
+    background-color: rgba(153, 205, 50, 0);
+    font-size: 20px;
+} *-/
+.SiteBrunchesLanguage{
+background-color: rgba(0, 255, 47, 0);
+color: red;
+width: 30%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+height: 25px;
+letter-spacing: 2.5px;
+
+}
+
+
+.map{
+    -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+         filter: grayscale(100%);
+}
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.SiteBrunches{
+     display: flex;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-radius: var(--Bl-Rds);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 1% 0;
+    border: 0.5px solid rgba(192, 189, 189, 0.9);
+}
+.SiteBrunchesChild{
+     display: flex;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-radius: var(--Bl-Rds);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65vh;
+    margin: 1% 0;
+}
+.SiteBrunches *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+} */

@@ -1,0 +1,228 @@
+:root{
+    --Secondary-font: "Dancing Script", cursive;
+    --Main-font :  "Federo", sans-serif;
+    --wieght-b:700;
+    --wieght-l:300;
+     /* Web-Defines */
+     --CPrim:var(--CPrim);
+     --CSec:var(--C-Sec);
+     --CSmBG:var(--C-L-gray);
+     --CBigBG:var(--C-BackGround);
+     --CTxt:var(--C-Text-Mid-Gray);
+     --CBrdr:var(--C-Border-Gray);
+}
+.FooterSite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+    height: 45vh;
+    width: 100%;
+    background-color: rgb(0, 30, 56);
+    color: rgb(174, 243, 255);
+    
+}
+.FooterSite *,.FooterSite * *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+.LeftOtherPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    
+    background-color: rgba(77, 202, 119, 0);
+}
+
+.RightOtherPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 77, 0, 0);
+}
+
+
+
+
+.SocialMediaPart{
+    /* width: 50%;
+    height: 100%;
+    background-color: rgba(17, 193, 220, 0);
+    
+    align-items: start;
+    text-align: left;
+    /* flex-wrap: wrap; *-/
+    padding: 0 5px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    
+    background-color: rgba(72, 255, 0, 0);
+    height: 95%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    padding: 0 15px;
+}/*
+.SocialMediaPart h4{
+     font-size: 16px;
+    background-color: rgba(0, 0, 255, 0);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.37);
+    padding: 0 15px;
+    font-weight: 400;
+    margin: 5px 0; 
+}*/
+.SocialMediaLinks{
+    /* background-color: rgba(0, 255, 255, 0);
+    padding: 0 15px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px; /* Optional: Adds space between links *-/
+    justify-content: space-between;
+    text-align: center; */
+
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    width: 80%;
+    min-height: 80%;
+    padding: 0 15px;
+    padding-top: 5px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: center;
+
+
+
+}
+
+#SocialMediaLinks a{
+    background-color: rgba(16, 51, 227, 0);
+    font-size: 15px;
+    margin: 2px 5px;
+    font-weight: 200;
+    letter-spacing: 2px;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: center;
+}
+.SocialMediaLinks a{
+   
+    all: unset;
+    display: block;
+    margin: 0 5px;
+    /* flex: 0 0 50%; /* Each item takes 50% of the width *-/
+    padding: 1px;
+    box-sizing: border-box; 
+    background-color: rgba(12, 141, 98, 0.785);
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 15px;
+*/
+
+background-color: rgba(216, 227, 16, 0);
+    font-size: 12px;
+    margin: 2px 5px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+   
+}
+.NewPart{
+  
+ 
+    width: 50%;
+    height: 100%;
+    background-color: rgba(180, 237, 114, 0);
+    background-color: rgba(16, 51, 227, 0);
+    font-size: 12px;
+    margin: 2px 5px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+}
+
+
+
+
+
+.ContactInfo{
+    background-color: rgba(72, 255, 0, 0);
+    height: 95%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    padding: 0 15px;
+}
+.MapData{
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    width: 80%;
+    min-height: 80%;
+    padding: 0 15px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: center;
+}
+.MapData div{
+    width: 100%;
+    display: flex;
+    
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.ContactInfoName{
+    background-color: rgba(244, 12, 12, 0);
+    font-size: 15px;
+    margin: 2px 5px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ContactInfoDetail{
+    background-color: rgba(16, 51, 227, 0);
+    font-size: 12px;
+    margin: 2px 5px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+

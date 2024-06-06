@@ -1,0 +1,223 @@
+:root{
+    
+    /* --C-L-gray:#0597e0; */
+    --C-Prime:#ff0040;
+    --C-Sec:#030001;
+    --C-L-gray:#f2f2f2;
+    --C-L-gray:#e5e9eb;
+    --C-Text-Mid-Gray:#7f7f7f;
+    --C-Border-Gray:#c8c8c8;
+    --C-BackGround:#f8f8f8;
+
+
+    --C-L-gray:#f2f2f2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Alegreya", serif;
+    font-family: "Oswald", sans-serif;
+}
+.ContactUs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 90%;
+    /* min-height: 800px; */
+    /* height: 450px; */
+    
+    background-color: rgba(127, 255, 212, 0);
+}
+.ContactUs,.ContactUs *,.ContactUs * *{
+    margin: 0;
+    padding: 0;
+    caret-color: #ff0040;
+}
+.ContactUs::placeholder,.ContactUs *::placeholder,.ContactUs * *::placeholder{
+    color: var(--C-Text-Mid-Gray);
+}
+.New{
+    border: 1px solid black;
+    margin: 10px 0;
+    background-color: #c10e4a2d;
+    height: 600px;
+    width: 100%;
+}
+
+
+.UpContactUs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+
+    background-color: rgba(184, 135, 11, 0);  
+    width: 80%;
+    height: 12%; 
+    
+    
+}
+.DownContactUs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+
+    background-color: rgba(255, 137, 202, 0);  
+    width: 80%;
+    height: 12%;
+    
+     
+
+}
+.LastContactUs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+    background-color: rgba(255, 136, 0, 0);   
+    width: 80%;
+    height: 35%;     
+}
+.LastContactUs textarea{
+    width: calc(98% - 30px);
+    text-align: left;
+    padding: 15px;
+}
+
+.LastContactUs textarea:placeholder-shown,.LastContactUs textarea::placeholder{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.BTNContactUs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+    /* background-color: var(--C-L-gray); */
+    width: 80%;
+    height: 12%;  
+}
+.BTNContactUs button{
+    border: none;
+    color: black;
+    background-color: var(--C-L-gray);
+    font-size: 25px;
+    width: 98%;
+    height: 99%;
+    border-radius: 15px;
+    border: 0.25px solid rgba(0, 0, 0, 0.5);
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-family: "Alegreya", serif; */
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 5px;
+}
+
+.ContactUsFullName{
+    outline: none;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0);
+    background-color: var(--CSmBG);
+    background-color: var(--C-L-gray);
+    
+    border: 0.25px solid rgba(0, 0, 0, 0.5);
+    height: 90%;
+    width: 48%;
+    letter-spacing: 2px;
+    font-size: 17px;
+    font-family: "Alegreya", serif
+}
+
+.ContactUsEmail{
+    outline: none;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border-radius: 15px;
+    background-color: var(--C-L-gray);
+    border: 0.25px solid rgba(0, 0, 0, 0.5);
+    height: 90%;
+    width: 48%;
+    letter-spacing: 2px;
+    font-size: 17px;
+    font-family: "Alegreya", serif
+}
+
+.ContactUsSubject{
+    outline: none;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border-radius: 15px;
+    background-color: var(--C-L-gray);
+    border: 0.25px solid rgba(0, 0, 0, 0.5);
+    height: 90%;
+    width: 48%;
+    letter-spacing: 2px;
+    font-size: 17px;
+    font-family: "Alegreya", serif
+}
+
+.ContactUsPhoneNumber{
+    outline: none;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border-radius: 15px;
+    background-color: var(--C-L-gray);
+    border: 0.25px solid rgba(0, 0, 0, 0.5);
+    height: 90%;
+    width: 48%;
+    letter-spacing: 2px;
+    font-size: 17px;
+    font-family: "Alegreya", serif
+}
+
+.ContactUsContent{
+    outline: none;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border-radius: 15px;
+    background-color: var(--C-L-gray);
+    border: 0.25px solid rgba(0, 0, 0, 0.5);
+    height: 90%;
+    width: 48%;
+    letter-spacing: 2px;
+    font-size: 17px;
+    font-family: "Alegreya", serif
+}
+.Line{
+    width: 100%;
+    height: 3px;
+    background-color: #9a9a9a;
+    margin: 50px 0;
+    border-radius: 90%;
+}
+.HorizentalLine{
+    height: 100%;
+    width: 0.5px;
+    background-color: #000000;
+    
+}
+
+/* ______________________________________________________________ */

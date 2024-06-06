@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --Secondary-font: "Dancing Script", cursive;
+    --Main-font :  "Federo", sans-serif;
+    --wieght-b:700;
+    --wieght-l:300;
+
+    --Secondary-font: "Dancing Script", cursive;
+    --Main-font :  "Federo", sans-serif;
+    
+    --wieght-b:700;
+    --wieght-l:300;
+    
+    --C-Prim:var(#ff0040);
+    --C-Sec:var(#030001);
+    --C-L-gray:var(#e5e9eb);
+    --C-Text-Mid-Gray:var(#7f7f7f);
+    --C-Border-Gray:var(#c8c8c8);
+    --C-BackGround:var(#f8f8f8);
+     /* Web-Defines */
+     --CPrim:var(--CPrim);
+     --CSec:var(--C-Sec);
+     --CSmBG:var(--C-L-gray);
+     --CBigBG:var(--C-BackGround);
+     --CTxt:var(--C-Text-Mid-Gray);
+     --CBrdr:var(--C-Border-Gray);
+     
+     /* Web-Defines */
+     --CPrim:var(--CPrim);
+     --CSec:var(--C-Sec);
+     --CSmBG:var(--C-L-gray);
+     --CBigBG:var(--C-BackGround);
+     --CTxt:var(--C-Text-Mid-Gray);
+     --CBrdr:var(--C-Border-Gray);
+} 
+
+.ProductSections{
+    display: flex;
+   justify-content: space-evenly;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 0;
+   margin: 0;
+   border-radius: var(--Bl-Rds);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 100%;
+   background-color: #00ff9900;
+   /* margin: 1% 0; */
+   /* border: 0.5px solid rgba(255, 119, 0, 0.9); */
+}
+.ProductsContainer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    border-radius: var(--Bl-Rds);
+
+    width: 100%;
+    height: 100%;
+    background-color: #ff004000;
+    overflow-x: scroll;
+
+    
+    border:1px solid rgba(255, 0, 0, 0);
+    
+    /* float:left; */
+    /* justify-content: space-evenly; */
+    /* position:relative; */
+}

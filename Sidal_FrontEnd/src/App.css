@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Engagement&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Arapey:ital@0;1&family=Oswald:wght@200..700&display=swap');
+
+:root {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Alegreya", serif;
+    font-family: "Oswald", sans-serif;
+    /* font-family: "Arapey", serif; */
+    /* font-family: "Dancing Script", cursive; */
+    
+
+     /*  S P E C I A L's  */
+    --cls: #ffffff00;
+    --blk: #000;
+    --wyt: #fff;
+    /*  G R A Y 's  */
+    --gray-L1: rgb(105, 105, 105);
+    --gray-L2: rgb(172, 172, 172);
+    --gray-L3: #666f80;
+    --gray-L4: #6a7285;
+    --gray-L5: #324151;
+    --gray-L6: #8994a3;
+    --gray-L7: #5d6980;
+    /*  D A R K 's  */
+    --Dark1: #374258;
+    --Dark2: #1e2c39;
+    --Dark3: #343239;
+    --Dark4: #1c1d24;
+    --Dark5: #26264c;
+    /*  L I G H T 's  */
+    --Light1: #bdc6da;
+    --Light2: #c4c4c4;
+    --Light3: #f5eee6;
+    --Light4: #c5cdd7;
+    --Light5: #ebeff5;
+    /*  B L U E 's  */
+    --Blue1: rgb(0, 119, 255); ;
+    --Blue2: rgb(0, 166, 255); ;
+    --Blue3: rgb(0, 113, 173); ;
+    --Blue4: rgb(60, 144, 253); ;
+    --Blue5: rgb(52, 52, 255); ;
+    --Blue6: rgb(112, 76, 255); ;
+    /*  R E D 's  */
+    --Red1: #ff3355;
+    --Red2: #fb6d6c;
+    --Red3: #f74464;
+    --Red4: #fe1a27;
+    --Red5: #820f15;
+    --Red6: #ea2340;
+    /*  1 S T   G R O U P 's  */
+    --C-Prime:#ff0040;
+    --C-Sec:#030001;
+    --C-L-gray:#f2f2f2;
+    --C-L-gray:#e5e9eb;
+    --C-Text-Mid-Gray:#7f7f7f;
+    --C-Border-Gray:#c8c8c8;
+    --C-BackGround:#f8f8f8;
+    /* --C-BackGround:var(#00ff00); */
+
+
+    /* DIMENSIONS */
+    --D1: 1px;
+    --D2: 2px;
+    --D3: 3px;
+    --D5: 5px;
+    --D1: 7px;
+    --D10: 10px;
+    --D11: 11px;
+    --D13: 13px;
+    --D15: 15px;
+    --D25: 25px;
+    --D30: 30px;
+    --D40: 40px;
+    --D60: 60px;
+    --D75: 75px;
+    --D80: 80px;
+    --D90: 90px;
+    --D100: 100px;
+    --D200: 200px;
+    /* FONTS */
+    --Secondary-font: "Dancing Script", cursive;
+    --Main-font :  "Federo", sans-serif;
+    --wieght-b:700;
+    --wieght-l:300;
+
+    /* Web-Defines */
+    --CPrim:var(--CPrime);
+    --CSec:var(--C-Sec);
+    --CSmBG:var(--C-L-gray);
+    --CBigBG:var(--C-BackGround);
+    --CTxt:var(--C-Text-Mid-Gray);
+    --CBrdr:var(--C-Border-Gray);
+
+    --Bl-Rds:var(--D25);
+    --Bs-Rds:calc(var(--D25) / var(--D2));
+    /*   Ethnocentric Bold */
+
+    
+   }
+   
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #061bfc00;
+    width: 5px;
+}
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #acacad;
+    border-radius: 15px;
+    height: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ff0066;
+    background: #858585;
+  }
+
+body,#root{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    background: var(--CBigBG);
+    
+}
+.ComingsoonContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  border-radius: var(--Bl-Rds);
+  font-size: 35px;
+  width: 100%;
+  height: 100%;
+  background-color: #ff004000;
+  overflow-x: scroll;
+  position:relative;
+  animation: CoomingSoon 3.5s infinite;
+}
+@keyframes CoomingSoon {
+  0%,100%{
+      opacity: 1;
+      letter-spacing: 1px;
+  }
+  50%{
+      opacity: 0.05;
+      letter-spacing: 5px;
+      
+  }
+}
+.TheShow{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    overflow-x:hidden;
+    background: linear-gradient(141deg, rgba(255,255,255,1) 30%, rgba(217,189,202,1) 100%);
+    background: var(--CBigBG);
+    overflow-x: hidden;
+    padding: 0;
+}
