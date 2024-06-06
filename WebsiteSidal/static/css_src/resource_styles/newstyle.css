@@ -1,0 +1,7 @@
+
+.footer{
+    display: flex;
+    position: sticky;
+    bottom: 0;
+    height: 50px;
+}

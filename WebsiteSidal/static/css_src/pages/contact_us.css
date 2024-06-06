@@ -1,0 +1,523 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+/* new1 start */
+@font-face {
+    font-family: ethnocentric;
+    src: url("Logo.otf") format("opentype");
+}
+/* new1 end */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins',sans-serif;
+}
+/* new2 start */
+*::placeholder{
+    font-family: cursive;
+    color: var(--new1-text-Color); /* #002e72;*/
+    text-align: center;
+    align-items: center;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+/* new2 end */
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color:#fff;
+    --main-color:#0ef;
+    --main-color:#ff7420;
+    --second-bg-color: #22314c;
+    --main-color:#0077ff;
+    --second-bg-color: #22314c;
+    --main-color:#a2ff00;
+    --second-bg-color: #22314c;
+    --main-color:#ff0055;
+    --second-bg-color: #22314c;
+    --bg-color: #EAE8DC;
+    --second-bg-color: #F4F2AC;
+    --text-color:#0E3746;
+    --main-color: #BE2623;
+    --second-bg-color: rgb(231, 236, 200);  
+    --second-bg-color: rgb(199, 199, 208);  
+    --bg-color: #ffffff;
+    --second-bg-color: rgb(231, 236, 200);
+    --text-color:rgb(0, 0, 0);
+    --main-color: rgb(0, 200, 255);
+    --bg-color: #ffffff;
+    --second-bg-color: rgb(199, 199, 208);
+    --text-color:rgb(0, 0, 0);
+    --main-color: rgb(255, 0, 51);
+    --new1-text-Color: #ffffff;
+    --second-bg-color: rgb(181, 189, 206);
+
+
+
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+    
+    
+    
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+.titles{
+    color: red;
+    letter-spacing: 10px;
+    font-family: 'Ethnocentric';
+    font-size: 22px;
+}
+
+
+
+
+
+
+.conta_form{
+    background-color: var(--second-bg-color);
+    /* background: #bcefd700; */
+    width: 100vw;
+    height: calc(100vh - 60px);
+    padding-top:90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.conta_form *::placeholder{
+    font-family: cursive;
+    font-family: 'Ethnocentric';
+    color: var(--new1-text-Color);
+    color:  #002e7259; /* #002e72;*/
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+.conta_form_container{
+    height: calc(100% - 90px);
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0);
+}
+.conta_form_container *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input_box{
+    width: 60%;
+    height: 15%;
+    background-color: rgba(0, 238, 255, 0);
+}
+.input_box input:invalid {
+    border: none;
+    outline: 2px solid red;
+  }
+.input_box input{
+    caret-shape: bar;
+    caret-color: red;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    outline: none;
+    width: 48%;
+    height: 80%;
+    border: 0px black solid;
+    background-color: #ffffff5f;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 15px;
+}
+#textarea_div{
+    height: 40%;
+}
+#textarea_messageBody{
+    caret-shape: bar;
+    caret-color: red;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    outline: none;
+    width: 48%;
+    height: 80%;
+    border: 0px black solid;
+    background-color: #ffffff5f;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 15px;
+
+
+    padding: 6px;
+    resize: none;
+    width: 97%;
+    height: 80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* flex-wrap: nowrap;
+    white-space: nowrap; */
+    &::-webkit-scrollbar {
+        color: red;
+        background-color: #0077ff00;
+        border-radius: 8px;
+        width: 5px;
+        }
+    &::-webkit-scrollbar-thumb {
+            
+            background-color: red;
+            border-radius: 25px;
+            }
+}
+.submit_btn{
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    outline: none;
+    width: 48%;
+    height: 80%;
+    border: 0px black solid;
+    font-size: 20px;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 15px;
+    padding: 6px;
+    width: 97%;
+    height: 80%;
+    background-color: rgb(104, 105, 118);
+    color: white;
+    font-weight: 900;
+    letter-spacing: 5px;
+    font-family: 'Ethnocentric';
+    transition: 1s ease-in-out;
+    box-shadow: 0 0 10px .2px rgba(255, 255, 255, 0);
+}
+.submit_btn:hover{
+    background-color: red;
+    transition: .5s;
+    box-shadow: 0 0 3px .2px red;
+}
+#textarea_messageBody::placeholder{
+    font-family: cursive;
+    font-family: 'Ethnocentric';
+    color: var(--new1-text-Color);
+    color:  #002e7259; /* #002e72;*/
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 8px;
+    font-weight: 900;
+}
+.submit{
+    width: 60%;
+    height: 15%;
+    background-color: #0077ff00;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+/* new1 start *
+@font-face {
+    font-family: ethnocentric;
+    src: url("Logo.otf") format("opentype");
+}
+/* new1 end *
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins',sans-serif;
+}
+/* new2 start *
+*::placeholder{
+    font-family: cursive;
+    color: var(--new1-text-Color); /* #002e72;*
+    text-align: center;
+    align-items: center;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+/* new2 end *
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color:#fff;
+    --main-color:#0ef;
+    --main-color:#ff7420;
+    --second-bg-color: #22314c;
+    --main-color:#0077ff;
+    --second-bg-color: #22314c;
+    --main-color:#a2ff00;
+    --second-bg-color: #22314c;
+    --main-color:#ff0055;
+    --second-bg-color: #22314c;
+    --bg-color: #EAE8DC;
+    --second-bg-color: #F4F2AC;
+    --text-color:#0E3746;
+    --main-color: #BE2623;
+    --second-bg-color: rgb(231, 236, 200);  
+    --second-bg-color: rgb(199, 199, 208);  
+    --bg-color: #ffffff;
+    --second-bg-color: rgb(231, 236, 200);
+    --text-color:rgb(0, 0, 0);
+    --main-color: rgb(0, 200, 255);
+    --bg-color: #ffffff;
+    --second-bg-color: rgb(199, 199, 208);
+    --text-color:rgb(0, 0, 0);
+    --main-color: rgb(255, 0, 51);
+    --new1-text-Color: #ffffff;
+    --second-bg-color: rgb(181, 189, 206);
+
+
+
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+    
+    
+    
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ *
+.titles{
+    color: red;
+    letter-spacing: 10px;
+    font-family: 'Ethnocentric';
+    font-size: 22px;
+}
+
+
+
+
+
+
+.conta_form{
+    background-color: var(--second-bg-color);
+    /* background: #bcefd700; *
+    width: 100vw;
+    height: calc(100vh - 60px);
+    padding-top:90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.conta_form *::placeholder{
+    font-family: cursive;
+    font-family: 'Ethnocentric';
+    color: var(--new1-text-Color);
+    color:  #002e7259; /* #002e72;*
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+.conta_form_container{
+    height: calc(100% - 90px);
+    /* height: 100%; *
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0);
+}
+.conta_form_container *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input_box{
+    width: 60%;
+    height: 15%;
+    background-color: rgba(0, 238, 255, 0);
+}
+.input_box input:invalid {
+    border: none;
+    outline: 2px solid red;
+  }
+.input_box input{
+    caret-shape: bar;
+    caret-color: red;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    outline: none;
+    width: 48%;
+    height: 80%;
+    border: 0px black solid;
+    background-color: #ffffff5f;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 15px;
+}
+#textarea_div{
+    height: 40%;
+}
+#textarea_messageBody{
+    caret-shape: bar;
+    caret-color: red;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    outline: none;
+    width: 48%;
+    height: 80%;
+    border: 0px black solid;
+    background-color: #ffffff5f;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 15px;
+
+
+    padding: 6px;
+    resize: none;
+    width: 97%;
+    height: 80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* flex-wrap: nowrap;
+    white-space: nowrap; *
+    &::-webkit-scrollbar {
+        color: red;
+        background-color: #0077ff00;
+        border-radius: 8px;
+        width: 5px;
+        }
+    &::-webkit-scrollbar-thumb {
+            
+            background-color: red;
+            border-radius: 25px;
+            }
+}
+.submit_btn{
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    outline: none;
+    width: 48%;
+    height: 80%;
+    border: 0px black solid;
+    font-size: 20px;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 15px;
+    padding: 6px;
+    width: 97%;
+    height: 80%;
+    background-color: rgb(104, 105, 118);
+    color: white;
+    font-weight: 900;
+    letter-spacing: 5px;
+    font-family: 'Ethnocentric';
+    transition: 1s ease-in-out;
+    box-shadow: 0 0 10px .2px rgba(255, 255, 255, 0);
+}
+.submit_btn:hover{
+    background-color: red;
+    transition: .5s;
+    box-shadow: 0 0 3px .2px red;
+}
+#textarea_messageBody::placeholder{
+    font-family: cursive;
+    font-family: 'Ethnocentric';
+    color: var(--new1-text-Color);
+    color:  #002e7259; /* #002e72;*
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 8px;
+    font-weight: 900;
+}
+.submit{
+    width: 60%;
+    height: 15%;
+    background-color: #0077ff00;
+}
+ */
+

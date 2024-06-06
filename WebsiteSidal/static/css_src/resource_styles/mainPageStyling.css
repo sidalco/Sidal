@@ -1,0 +1,71 @@
+
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color:#fff;
+    --main-color:#0ef;
+    --main-color:#ff7420;
+    --second-bg-color: #22314c;
+    --main-color:#0077ff;
+    --second-bg-color: #22314c;
+    --main-color:#a2ff00;
+    --second-bg-color: #22314c;
+    --main-color:#ff0055;
+    --second-bg-color: #22314c;
+    --bg-color: #EAE8DC;
+    --second-bg-color: #F4F2AC;
+    --text-color:#0E3746;
+    --main-color: #BE2623;
+    --second-bg-color: rgb(231, 236, 200);  
+    --second-bg-color: rgb(199, 199, 208);  
+    --bg-color: #ffffff;
+    --second-bg-color: rgb(231, 236, 200);
+    --text-color:rgb(0, 0, 0);
+    --main-color: rgb(0, 200, 255);
+    --bg-color: #ffffff;
+    --second-bg-color: rgb(199, 199, 208);
+    --text-color:rgb(0, 0, 0);
+    --main-color: rgb(255, 0, 51);
+    --new1-text-Color: #ffffff;
+    --second-bg-color: rgb(181, 189, 206);
+
+    --cls:rgba(0, 0, 0, 0);
+    --cwt:#fff;
+    --cblk:#000;
+    --gry1:rgb(86, 86, 86);
+    --csdw5:rgba(0,0,0,.5);
+
+    --cred1: rgb(255, 0, 85);
+    --cred2: rgb(255, 0, 51);
+    --cred3: rgb(171, 18, 41);
+    --cred4: rgb(255, 0, 85);
+    --cred5: rgb(160, 0, 53);
+    --cred6: rgb(222, 0, 0);
+
+    --cbg1:rgb(181, 189, 206);
+    --cbg2:rgb(104, 105, 118);
+    --cbg3:#ffffff5f;;
+    --cbg4:#002e7259;
+    --cbg5:rgb(104, 105, 118);
+    --cbg6:rgb(5, 15, 69);
+    --cbg7:rgb(181, 189, 206);
+    --cbg8:#46579e52;
+    --cbg9:#22509f00;
+    --cbg10:rgb(86, 86, 86);
+    --cbg10:rgb(86, 86, 86);
+    --cbg10:rgb(86, 86, 86);
+    --cbg10:rgb(86, 86, 86);
+
+    --cphtxt1:rgb(181, 189, 206);
+    --cphtxt2:rgb(104, 105, 118);
+    
+
+    --cbrd1:rgb(181, 189, 206);
+    --cbrd2:rgb(104, 105, 118);
+    
+
+    --cmm1:rgb(181, 189, 206);
+    --cmm2:rgb(104, 105, 118);
+    
+
+}

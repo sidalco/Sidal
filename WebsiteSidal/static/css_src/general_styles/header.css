@@ -1,0 +1,339 @@
+
+@import url('https://fonts.cdnfonts.com/css/ethnocentric');
+@font-face {
+    font-family: ethnocentric;
+    src: url("font_src/Logo.otf") format("opentype");
+}
+
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color:#fff;
+    --main-color:#0ef;
+    --main-color:#ff7420;
+    --second-bg-color: #22314c;
+    --main-color:#0077ff;
+    --second-bg-color: #22314c;
+    --main-color:#a2ff00;
+    --second-bg-color: #22314c;
+    --main-color:#ff0055;
+    --second-bg-color: #22314c;
+    --bg-color: #EAE8DC;
+    --second-bg-color: #F4F2AC;
+    --text-color:#0E3746;
+    --main-color: #BE2623;
+    --second-bg-color: rgb(231, 236, 200);  
+    --second-bg-color: rgb(199, 199, 208);  
+    --bg-color: #ffffff;
+    --second-bg-color: rgb(231, 236, 200);
+    --text-color:rgb(0, 0, 0);
+    --main-color: rgb(0, 200, 255);
+    --bg-color: #ffffff;
+    --second-bg-color: rgb(199, 199, 208);
+    --text-color:rgb(0, 0, 0);
+    --main-color: rgb(255, 0, 51);
+    --new1-text-Color: #ffffff;
+    --second-bg-color: rgb(181, 189, 206);
+
+    --cls:rgba(0, 0, 0, 0);
+    --cwt:#fff;
+    --cblk:#000;
+    --gry1:rgb(86, 86, 86);
+    --csdw5:rgba(0,0,0,.5);
+
+    --cred1: rgb(255, 0, 85);
+    --cred2: rgb(255, 0, 51);
+    --cred3: rgb(171, 18, 41);
+    --cred4: rgb(255, 0, 85);
+    --cred5: rgb(160, 0, 53);
+    --cred6: rgb(222, 0, 0);
+
+    --cbg1:rgb(181, 189, 206);
+    --cbg2:rgb(104, 105, 118);
+    --cbg3:#ffffff5f;;
+    --cbg4:#002e7259;
+    --cbg5:rgb(104, 105, 118);
+    --cbg6:rgb(5, 15, 69);
+    --cbg7:rgb(181, 189, 206);
+    --cbg8:#46579e52;
+    --cbg9:#22509f00;
+    --cbg10:rgb(86, 86, 86);
+    --cbg10:rgb(86, 86, 86);
+    --cbg10:rgb(86, 86, 86);
+    --cbg10:rgb(86, 86, 86);
+
+    --cphtxt1:rgb(181, 189, 206);
+    --cphtxt2:rgb(104, 105, 118);
+    
+
+    --cbrd1:rgb(181, 189, 206);
+    --cbrd2:rgb(104, 105, 118);
+    --liner1: linear-gradient(4deg, rgba(189,211,240,1) 0%, rgba(128,131,150,1) 50%, rgba(62,66,69,1) 100%);
+    --liner2: linear-gradient(4deg, rgba(62,66,69,1) 0%, rgba(128,131,150,1) 50%, rgba(189,211,240,1) 100%);
+    --cmm1:rgb(181, 189, 206);
+    --cmm2:rgb(104, 105, 118);
+
+}
+
+
+#menu-icon{
+    font-size: 3.6rem;
+    color: var(--cred1);
+    display: none;
+}              
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background: var(--cwt);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    z-index: 100;
+
+}
+
+.header.sticky{
+    border-bottom: .1rem solid var(--csdw5);
+}
+/*------------------- Product Items --------------------*/
+.header-product-menuitems{
+    height: 50px;
+    width:30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color:rgba(0, 255, 255, 0); */
+    border-radius: 10px;
+    border: 1.5px solid var(--cred1);
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.header-product-menuitems a{
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--cred1);
+    
+    transition: .3s;
+}
+.header-product-menuitems a:hover,
+.header-product-menuitems a.active{
+    color: var(--cred1);
+
+}
+
+/*-------------------- LOGO Middle --------------------*/
+.header-logo-sidal{
+    width: 40%;
+    height : 100%;
+    background-color: var(--cls);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+.divelogo{
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    font-family: 'Ethnocentric';
+    border: 3px var(--cblk);
+    
+    background: var(--cls);
+}
+.header-logo-sidal a{
+    width: 90%;
+    height: 100%;
+    font-size: 40px;
+    text-decoration:none;
+    color:var(--cred1);
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    font-family: 'Ethnocentric';
+
+
+    background:var(--cls);
+}
+.squares-logo{
+    font-family: 'Ethnocentric';
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    width: 22%;
+    height: 100%;
+
+    background:var(--cls);
+}
+.divsquare{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    border: 3.5px var(--cblk) solid;
+    width: 40px;
+    aspect-ratio: 1/1;
+    rotate: 45deg;
+
+   
+}
+#sq1{
+    margin-left: 0px;
+     background-color:var(--cls);
+}
+
+#sq2{
+    margin-left: -50px;
+     background-color:var(--cls);
+}
+
+#sq3{
+    margin-left: -50px;
+     background-color:var(--cls);
+}
+#sq4{
+    margin-left: -50px;
+     background-color:var(--cls);
+}
+
+#sq5{
+    margin-left: -50px;
+     background-color:var(--cls);
+}
+
+.words-logo{
+    font-family: 'Ethnocentric';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    width: 60%;
+    height: 100%;
+    font-size: 12px ;
+
+    background:var(--cls);
+}
+.sidal-word{
+    font-family: 'Ethnocentric';
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    text-align: end;
+    justify-items: end;
+    width: 100%;
+    height: 60%;
+
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 20px;
+    
+    background: var(--cls);
+}
+.sincewords{
+    font-family: 'Ethnocentric';
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    text-align: center;
+    justify-items: center;
+    width: 100%;
+    height: 40%;
+    
+
+    background: var(--cls);
+}
+.sincewords span{
+    font-family: 'Ethnocentric';
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    width: 50%;
+    height: 100%;
+    color: var(--cls);
+}
+.sincewords p{
+    font-family: 'Ethnocentric';
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    width: 50%;
+    height: 100%;
+    color: var(--cbg5);
+}
+/*-------------------- Company & Contact-Us --------------------*/
+.header-company-contact-menuitems{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    background-color:var(--cls);
+}
+.divb{
+    background:var(--cls);
+    color: var(--cls);
+    width: 5%;
+}
+
+.header-company-contact-menuitems  a{
+    width: 30%;
+    font-size: 15px;
+    font-weight: 900;
+    color:var(--cblk);
+    cursor: pointer;
+    border-bottom: 1px solid var(--cls);
+    border-radius: 5px;
+    padding: 1px;
+}
+#lang{
+    width: 10%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    border: 1px solid var(--cred1);
+}
+#lang:hover{
+    border: 1px solid var(--cbg5);
+    background-color: var(--cbg5);
+    color: var(--cwt);
+}
+.header-company-contact-menuitems  a:hover{
+    color: var(--cred1);
+    border-bottom: 1px solid var(--cred1);
+}
+
+
+
+
+
+
+
